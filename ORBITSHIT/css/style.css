@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+} 
+
+
+
+
+.main{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6A5ACD;
+}
+
+
+
+.left{
+   
+    width: 50vw;
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+
+
+ .left > h1{
+
+   color:#77ffc0;
+
+ }
+
+img{
+    max-height: 30%;
+    min-height: 40%;
+}
+
+.right{
+    
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+    
+
+}
+
+.card{
+
+    
+
+    width: 70%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding: 50px 35px;
+    background:  rgb(85, 70, 180);
+    border-radius: 20px;
+    box-shadow: 0px 10PX 40px rgb(35, 28, 80);
+
+
+}
+
+.card > h1{
+
+    width: center;
+    height: 30vh;
+    color: #77ffc0;
+    font-weight:2000;
+
+}
+
+.textfield{
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 6px;
+    color: #77ffc0
+    
+    
+}
+input{
+height: 100%;   
+width: 100%;
+border: none;
+border-radius: 40px;
+padding: 20px;
+background: rgb(187, 179, 243);
+outline: none;
+font-size: 20pt;
+box-shadow: 0px 6px 40px rgb(123, 105, 245);
+border: 3px solid transparent;
+
+}
+
+input::placeholder{
+    color: #f5faf8
+}
+
+
+
+input:focus{
+
+    border-color: #77ffc0;
+}
+
+label{
+    color: #f5faf8;
+    margin: 12px 0;
+    box-shadow: 0px 3px  #77ffc0;   
+}
+
+button{
+
+    
+    width: 30%;
+    margin: 1px;
+    padding: 15px 0;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #010c07;
+    background: #77ffc0;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: 0px 2px 10px;
+    font-size: 20px;
+
+}
+
+.btn-login:hover{
+
+    transition: background 1s;
+    background: #77ffc09c;
+}
